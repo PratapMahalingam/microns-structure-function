@@ -1,0 +1,138 @@
+{
+  "data": "MICrONS",
+  "warning": null,
+  "n_neurons_with_responses": 12894,
+  "response_vector_length": 120,
+  "subsets": {
+    "all": {
+      "degree_preserving": {
+        "null": "degree-preserving shuffle",
+        "n_pairs": 8128,
+        "n_presynaptic_neurons": 148,
+        "n_shuffles": 1000,
+        "observed_mean_r": 0.07109664442495475,
+        "observed_median_r": 0.034771449380439676,
+        "null_mean_r": 0.04056098681209806,
+        "null_mean_r_95ci": [
+          0.03733878725957323,
+          0.043383368154501
+        ],
+        "null_median_r": 0.0063239471055567265,
+        "difference_in_mean_r": 0.03053565761285669,
+        "permutation_p_one_sided": 0.000999000999000999,
+        "permutation_z": 19.832860552099795,
+        "mann_whitney_U": 36455690450.0,
+        "mann_whitney_p_one_sided": 3.7306640137207964e-59,
+        "cliffs_delta": 0.10364127363996922,
+        "per_neuron_wilcoxon_p_one_sided": 1.228995089432571e-07,
+        "per_neuron_fraction_above_null": 0.7162162162162162
+      },
+      "proximity_matched": {
+        "null": "proximity-matched shuffle",
+        "n_pairs": 8128,
+        "n_presynaptic_neurons": 148,
+        "n_shuffles": 1000,
+        "observed_mean_r": 0.07109664442495475,
+        "observed_median_r": 0.034771449380439676,
+        "null_mean_r": 0.05306966555351723,
+        "null_mean_r_95ci": [
+          0.04978245068545569,
+          0.056506580981575905
+        ],
+        "null_median_r": 0.01802276261150837,
+        "difference_in_mean_r": 0.018026978871437525,
+        "permutation_p_one_sided": 0.000999000999000999,
+        "permutation_z": 10.766405552600267,
+        "mann_whitney_U": 34996694845.0,
+        "mann_whitney_p_one_sided": 8.301141230591482e-21,
+        "cliffs_delta": 0.05947237304142572,
+        "per_neuron_wilcoxon_p_one_sided": 8.379039415578262e-05,
+        "per_neuron_fraction_above_null": 0.6418918918918919
+      },
+      "connection_strength": {
+        "synapse_size": {
+          "spearman_rho": 0.09416185301649811,
+          "p": 1.787974482898064e-17
+        },
+        "n_synapses": {
+          "spearman_rho": 0.055206012904030585,
+          "p": 6.353376216180902e-07
+        },
+        "multi_vs_single_synapse": {
+          "n_multi": 741,
+          "n_single": 7387,
+          "mean_r_multi": 0.10567973785544474,
+          "mean_r_single": 0.06762756736633921,
+          "mann_whitney_p_one_sided": 4.04480588305353e-07,
+          "cliffs_delta": 0.10975987834337841
+        }
+      },
+      "check_max_abs_diff_vs_released_sig_corr": 1.8534385115565044e-07
+    },
+    "L23_to_L23": {
+      "degree_preserving": {
+        "null": "degree-preserving shuffle",
+        "n_pairs": 2621,
+        "n_presynaptic_neurons": 81,
+        "n_shuffles": 1000,
+        "observed_mean_r": 0.07823077154399775,
+        "observed_median_r": 0.044411898204786644,
+        "null_mean_r": 0.04697256126418389,
+        "null_mean_r_95ci": [
+          0.04155747260524116,
+          0.05210367669221613
+        ],
+        "null_median_r": 0.016702158376574516,
+        "difference_in_mean_r": 0.03125821027981386,
+        "permutation_p_one_sided": 0.000999000999000999,
+        "permutation_z": 11.554606127328954,
+        "mann_whitney_U": 3803931158.0,
+        "mann_whitney_p_one_sided": 8.314057751005285e-22,
+        "cliffs_delta": 0.10746141115671115,
+        "per_neuron_wilcoxon_p_one_sided": 7.641962487156583e-06,
+        "per_neuron_fraction_above_null": 0.7160493827160493
+      },
+      "proximity_matched": {
+        "null": "proximity-matched shuffle",
+        "n_pairs": 2621,
+        "n_presynaptic_neurons": 81,
+        "n_shuffles": 1000,
+        "observed_mean_r": 0.07823077154399775,
+        "observed_median_r": 0.044411898204786644,
+        "null_mean_r": 0.06865199503949654,
+        "null_mean_r_95ci": [
+          0.06300393988523696,
+          0.07388641584024827
+        ],
+        "null_median_r": 0.03642485290765762,
+        "difference_in_mean_r": 0.009578776504501216,
+        "permutation_p_one_sided": 0.000999000999000999,
+        "permutation_z": 3.4237894340132593,
+        "mann_whitney_U": 3541073082.0,
+        "mann_whitney_p_one_sided": 0.0030565457035115428,
+        "cliffs_delta": 0.030933954772891292,
+        "per_neuron_wilcoxon_p_one_sided": 0.03439849368674923,
+        "per_neuron_fraction_above_null": 0.5802469135802469
+      },
+      "connection_strength": {
+        "synapse_size": {
+          "spearman_rho": 0.07664748260444065,
+          "p": 8.568049833278225e-05
+        },
+        "n_synapses": {
+          "spearman_rho": 0.03039135646325057,
+          "p": 0.11982133557923812
+        },
+        "multi_vs_single_synapse": {
+          "n_multi": 178,
+          "n_single": 2443,
+          "mean_r_multi": 0.10237329929738573,
+          "mean_r_single": 0.07647171712725478,
+          "mann_whitney_p_one_sided": 0.06190901033417098,
+          "cliffs_delta": 0.06899557092725384
+        }
+      },
+      "check_max_abs_diff_vs_released_sig_corr": 1.4907690026877418e-07
+    }
+  }
+}

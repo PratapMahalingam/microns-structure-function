@@ -1,0 +1,7 @@
+data/
+results_synthetic/
+__pycache__/
+.pytest_cache/
+*.pkl
+*.part
+.ipynb_checkpoints/
